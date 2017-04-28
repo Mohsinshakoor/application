@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" />
+<script src="jquery.min.js"></script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+<body>
+<div id="main" data-role="page">
+<form name="frm" action="#" method="get">
+<header data-role="header">
+<h1>Attendence System</h1>
+<a href="#">Exit</a>
+<a href="#">Setting</a>
+</header>
+<article data-role="content">
+<ul>
+<div class="test" align="center">
+<li><a href="#login" ><input type="button" name="Login" value="Login"  /></a></li>
+<li><a href="#signup" ><input type="button" name="SignUp" value="SignUp"  /></a></li>
+</div>
+</ul>
+</article>
+<footer data-role="footer" data-position="fixed"><h6>&copy; copyright: Danish Mehmood</h6></footer>
+</form>
+</div>
+<!--End of Page 1-->
+
+
+
+                                                        <!--Login-->
+                                         
+<div id="login" data-role="page">
+<form name="frm" action="#" method="get">
+<header data-role="header">
+<h1>Login</h1>
+<a href="#main">Back</a>
+<a href="#">Setting</a>
+</header>
+<article data-role="content">
+<ul>
+<li><h3>User Name</h3><input type="text" name="txt" placeholder="Enter Your name here"  /></li>
+<li><h3>Password</h3><input type="Password" name="pass" placeholder="Enter Your Password" /></li>
+<div class="test" align="center">
+<li><a href="#dept"><input type="button" name="login" value="Login"  /></a></li>
+</div>
+</ul>
+</article>
+<footer data-role="footer" data-position="fixed"><h6>&copy; copyright</h6></footer>
+</form>
+</div>
+<!--End of Page Login-->
+
+                                                        <!--SignUp-->
+<div id="signup" data-role="page">
+<form name="frm" action="#" method="get">
+<header data-role="header">
+<h1>SignUp</h1>
+<a href="#main">Back</a>
+<a href="#">Setting</a>
+</header>
+<article data-role="content">
+<ul>
+<li>First Name<input type="text" name="name"  /></li>
+<li>Last Name<input type="text" name="name"  /></li>
+<li>Email<input type="text" name="email"  /></li>
+<li>Password<input type="Password" name="pass"  /></li>
+<li>Confirm Password<input type="password" name="cpasss"  /></li>
+<div class="test" align="center">
+<li><a href="#login"><input type="button" name="signup" value="Register"  /></a></li>
+</div>
+</ul>
+</article>
+<footer data-role="footer" data-position="fixed"><h6>copyright</h6></footer>
+</form>
+</div>
+                                   <!--End of Page Signup-->
+                                   
+                                                             <!--Start of page dept-list -->
+                                                                  
+                                                                  
+                                                                  
+
+<div id="dept" data-role="page">
+<form name="frm" action="#" method="get">
+<header data-role="header">
+<h1>Choose a dept.</h1>
+<a href="#login">Back</a>
+<a href="#">Setting</a>
+</header>
+<article data-role="content" >
+<ul>
+<li><a href="#sectionIT"><input type="button" name="bit" value="BS-IT" /></a></li>
+<li><a href="#"><input type="button" name="bcs" value="BS-CS" /></a></li>
+<li><a href="#"><input type="button" name="mit" value="MS-IT" /></a></li>
+<li><a href="#"><input type="button" name="mcs" value="MS-CS" /></a></li>
+<li><a href="#"><input type="button" name="bba" value="BBA"   /></a></li>
+<li><a href="#"><input type="button" name="mba" value="MBA"   /></a></li>
+</ul>
+</article>
+<footer data-role="footer" data-position="fixed"><h6>copyright</h6></footer>
+</form>
+</div> 
+                               					<!--End of page dept-list -->
+                                                
+                                                
+                                                              <!--Start of page section-->
+<div id="sectionIT" data-role="page">
+<form name="frm" action="#" method="get">
+<header data-role="header">
+<h1>Choose a Section</h1>
+<a href="#dept">Back</a>
+<a href="../main">Menu</a>
+</header>
+<article data-role="content">
+<ul>
+<li><a href="#"><input type="button" name="2a" value="BS-IT (2A)" /></a></li>
+<li><a href="#"><input type="button" name="2b" value="BS-IT (2B)" /></a></li>
+<li><a href="#"><input type="button" name="4a" value="BS-IT (4A)" /></a></li>
+<li><a href="#IT-4b"><input type="button" name="4b" value="BS-IT (4B)" /></a></li>
+<li><a href="#"><input type="button" name="6a" value="BS-IT (6A)" /></a></li>
+<li><a href="#"><input type="button" name="6b" value="BS-IT (6B)" /></a></li>
+<li><a href="#"><input type="button" name="8a" value="BS-IT (8A)" /></a></li>
+<li><a href="#"><input type="button" name="8b" value="BS-IT (8B)" /></a></li>
+</ul>
+</article>
+<footer data-role="footer" data-position="fixed"><h6>copyright</h6></footer>
+</form>
+</div> 
+														<!--End of page Section-list -->
+                                                        
+                                                        <!--Start of page it-4b-->
+<div id="IT-4b" data-role="page">
+<form name="frm" action="#" method="get">
+<header data-role="header">
+<h1>BS-IT (4B)</h1>
+<a href="#sectionIT">Back</a>
+<a href="../main">Menu</a>
+</header>
+<article data-role="content">
+<ul>
+<div class="test" align="center">
+<li><a href="#4b-att"><input type="button" name="sa" value="Start Attendence" /></a></li>
+<li><a href="#4b-rec"><input type="button" name="vr" value="View Record" /></a></li>
+</div>
+</ul>
+</article>
+<footer data-role="footer" data-position="fixed"><h6>&copy; copyright</h6></footer>
+</form>
+</div> 
+														<!--End of page it-4b -->
+                                                        
+                                                         <!--Start of page it-4b Record-->
+<div id="4b-rec" data-role="page">
+<form name="frm" action="#" method="get">
+<header data-role="header">
+<h1>Daily Record</h1>
+<a href="#sectionIT">Back</a>
+<a href="../main">Menu</a>
+</header>
+<article data-role="content" >
+<ul>
+<li><a href="#"><input type="button" name="a" value="Ahmad idrees" /></a></li>
+<li><a href="#"><input type="button" name="d" value="Danish Mehmood" /></a></li>
+<li><a href="#"><input type="button" name="h" value="HRK" /></a></li>
+<li><a href="#"><input type="button" name="n" value="nabeel Babar" /></a></li>
+<li><a href="#"><input type="button" name="r" value="Rehan ur Rahid" /></a></li>
+</ul>
+</article>
+<footer data-role="footer" data-position="fixed"><h6>&copy; copyright</h6></footer>
+</form>
+</div>     
+                                                            <!--end of page it-4b Record-->
+                                                        
+                                                            <!--Start of page it-4b attendence-->
+<div id="4b-att" data-role="page">
+<form name="frm" action="#" method="get">
+<header data-role="header">
+<h1>BS-IT (4B)</h1>
+<a href="#IT-4b">Back</a>
+<a href="../main">Menu</a>
+</header>
+<article data-role="content">
+<ul>
+<li><h1 align="center">Ahmad Idrees</h1></li><br /><h3 align="center">15-Arid-1181</h3></li>
+<div class="testp" align="center">
+<li><a href="#4b-att1"><input type="button" name="Present" value="Present" /></a></li>
+</div>
+<div class="testa" align="center">
+<li><a href="#4b-att1"><input type="button" name="Absent" value="Absent" /></a></li>
+</div>
+</ul>
+</article>
+<footer data-role="footer" data-position="fixed"><h6>copyright</h6></footer>
+</form>
+</div> 
+														<!--End of page 4b-attendence -->
+                                                        <!--Start of page it-4b attendence-->
+<div id="4b-att1" data-role="page">
+<form name="frm" action="#" method="get">
+<header data-role="header">
+<h1>BS-IT (4B)</h1>
+<a href="#IT-4b">Back</a>
+<a href="../main">Menu</a>
+</header>
+<article data-role="content">
+<ul>
+<li><h1 align="center">Danish mehmood</h1></li><br /><h3 align="center">15-Arid-1197</h3></li>
+<div class="testp" align="center">
+<li><a href="#4b-att2"><input type="button" name="Present" value="Present" /></a></li>
+</div>
+<div class="testa" align="center">
+<li><a href="#4b-att2"><input type="button" name="Absent" value="Absent" /></a></li>
+</div>
+</ul>
+</article>
+<footer data-role="footer" data-position="fixed"><h6>copyright</h6></footer>
+</form>
+</div> 
+														<!--End of page 4b-attendence -->
+                                                        <!--Start of page it-4b attendence-->
+<div id="4b-att2" data-role="page">
+<form name="frm" action="#" method="get">
+<header data-role="header">
+<h1>BS-IT (4B)</h1>
+<a href="#IT-4b">Back</a>
+<a href="../main">Menu</a>
+</header>
+<article data-role="content">
+<ul>
+<li><h1 align="center">HRK</h1></li><br /><h3 align="center">15-Arid-1211</h3></li>
+<div class="testp" align="center">
+<li><a href="#4b-att3"><input type="button" name="Present" value="Present" /></a></li>
+</div>
+<div class="testa" align="center">
+<li><a href="#4b-att3"><input type="button" name="Absent" value="Absent" /></a></li>
+</div>
+</ul>
+</article>
+<footer data-role="footer" data-position="fixed"><h6>copyright</h6></footer>
+</form>
+</div> 
+														<!--End of page 4b-attendence -->
+                                                        <!--Start of page it-4b attendence-->
+<div id="4b-att3" data-role="page">
+<form name="frm" action="#" method="get">
+<header data-role="header">
+<h1>BS-IT (4B)</h1>
+<a href="#IT-4b">Back</a>
+<a href="../main">Menu</a>
+</header>
+<article data-role="content">
+<ul>
+<li><h1 align="center">Nabeeel Babar</h1></li><br /><h3 align="center">15-Arid-1244</h3></li>
+<div class="testp" align="center">
+<li><a href="#4b-att4"><input type="button" name="Present" value="Present" /></a></li>
+</div>
+<div class="testa" align="center">
+<li><a href="#4b-att4"><input type="button" name="Absent" value="Absent" /></a></li>
+</div>
+</ul>
+</article>
+<footer data-role="footer" data-position="fixed"><h6>copyright</h6></footer>
+</form>
+</div> 
+														<!--End of page 4b-attendence -->
+                                                        <!--Start of page it-4b attendence-->
+<div id="4b-att4" data-role="page">
+<form name="frm" action="#" method="get">
+<header data-role="header">
+<h1>BS-IT (4B)</h1>
+<a href="#IT-4b">Back</a>
+<a href="../main">Menu</a>
+</header>
+<article data-role="content">
+<ul>
+<li><h1 align="center">Rehan ur rashid</h1></li><br /><h3 align="center">15-Arid-1259</h3></li>
+<div class="testp" align="center">
+<li><a href="#4b-rec"><input type="button" name="Present" value="Present" /></a></li>
+</div>
+<div class="testa" align="center">
+<li><a href="#4b-rec"><input type="button" name="Absent" value="Absent" /></a></li>
+</div>
+</ul>
+</article>
+<footer data-role="footer" data-position="fixed"><h6>copyright</h6></footer>
+</form>
+</div> 
+														<!--End of page 4b-attendence -->
+</body>
+</html>
+
