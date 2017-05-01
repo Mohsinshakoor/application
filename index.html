@@ -43,6 +43,52 @@ ul {
 	background-color:#900 !important;
 	color:white !important;}
 </style>
+	<script language="javascript">
+		function validate_login_page()
+		{ 
+			var username=document.frm1.txt.value;
+		 var userpassword=document.frm1.pass.value;
+		 if(username=="")
+		 {
+			 alert("please fill the username");
+			 return false;
+			 document.frm1.txt.focus;
+		 }
+
+			 esle if(userpassword=="")
+			 { 
+				 alert("please fill passwordbox");
+				 return false;
+				 document.frm1.pass.focus;
+				
+			 }
+		 
+			 else if((username=="")&&(userpassword==""))
+			 {
+				 alert("please fill the login form");
+				 return false;
+				 document.frm1.txt.focus;
+			 }
+		 else if(username!="admin")
+		 { 
+			 alert("Invalid!!! Uername");
+			 return false;
+			 document.form1.txt.focus;
+		 }
+		 else if(userpassword!=123)
+		 {
+			 alert("Invalidpassword!!!!");
+			 return false;
+			 document.form1.pass.focus;
+		 } 
+		 return true;
+		}
+	</script>
+		  
+				 
+		 
+		
+	
 </head>
 <body>
 <div id="main" data-role="page">
@@ -70,11 +116,11 @@ ul {
                                                         <!--Login-->
                                          
 <div id="login" data-role="page">
-<form name="frm" action="#" method="get">
+<form name="frm1" action="#" method="get">
 <header data-role="header">
 <h1>Login</h1>
 <a href="#main" data-icon="back">Back</a>
-<a href="#" data-icon="grid">Setting</a>
+<a href="#" data-icon="gear">Setting</a>
 </header>
 <article data-role="content">
 <ul>
@@ -96,7 +142,7 @@ ul {
 <header data-role="header">
 <h1>SignUp</h1>
 <a href="#main" data-icon="back">Back</a>
-<a href="#" data-icon="grid">Setting</a>
+<a href="#" data-icon="gear">Setting</a>
 </header>
 <article data-role="content">
 <ul>
@@ -125,7 +171,7 @@ ul {
 <header data-role="header">
 <h1>Choose a dept.</h1>
 <a href="#login" data-icon="back">Back</a>
-<a href="#" data-icon="grid">Setting</a>
+<a href="#" data-icon="gear">Setting</a>
 </header>
 <article data-role="content" >
 <ul>
@@ -194,8 +240,8 @@ ul {
 <form name="frm" action="#" method="get">
 <header data-role="header">
 <h1>Daily Record</h1>
-<a href="#sectionIT">Back</a>
-<a href="../main">Menu</a>
+<a href="#sectionIT" data-icon="back">Back</a>
+<a href="../main" data-icon="grid">Menu</a>
 </header>
 <article data-role="content" >
 <ul>
